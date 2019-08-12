@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import { all } from 'q';
+import SearchBar from './searchBar.js'
 
 class App extends React.Component {
   constructor(props) {
@@ -11,7 +13,6 @@ class App extends React.Component {
       wikiName: [],
       wikiDescription: [],
       wikiLink: [],
-      searchInput: ""
      }
       
   }
@@ -37,39 +38,11 @@ class App extends React.Component {
 }
   
   render() { 
-  
-  //these can all go in the css file  
-    
-  const all = {
-  margin: "auto",
-  display: "block",
-  width: 600,
-  fontFamily: "Courgette",
-  }
-    
-  const searchBox = {
-  textAlign: "center",
-  backgroundColor: "rgba(244,244,244, 0.6)",
-  padding: 10 
-  }
-  
-  const listTab = {
-  padding: "10px",
-  backgroundColor: "rgba(244,244,244, 1)",
-  listStyleType: "none",
-  marginTop: 10,
-  textAlign: "left",
-}
-    
     return (
-      <section style={all}>   {/*section can be app.js*/}
-      <div style={searchBox}>         {/*searchbox can be one component*/}
-        <h1>Searching Wikipedia for <a style = {{color: this.state.searchInput}} >{this.state.searchInput}</a></h1>
-        <input id="searchBar" style={{marginTop: 10}} onChange={this.updateState}></input>
-<button id = "searchButton" onClick={this.callAPI}> Search </button>
-         </div>
-{this.state.wikiName.map((x, y)=> {return <li key={x+1} style={listTab}><a href={this.state.wikiLink[y]}>{x}</a> - {this.state.wikiDescription[y]}</li>})}         {/*this should map components dynamically updating state*/}
-        </section>   
+      <section className="all">
+      <SearchBar updateState={this.updateState} callAPI={this.callAPI}/>
+      {this.state.wikiName.map((x, y)=> {return <li key={x+1} className="listTab"><p href={this.state.wikiLink[y]}>{x}</p> - {this.state.wikiDescription[y]}</li>})}         {/*this should map components dynamically updating state*/}
+      </section>   
     );
   }
 };
