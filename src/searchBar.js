@@ -9,6 +9,7 @@ constructor(props){
 }
 
 render(){
+
     return(
         <div className="searchBox">         {/*searchbox can be one component*/}
         <h1>Searching Wikipedia for... <p>{this.state.searchInput}</p></h1>
