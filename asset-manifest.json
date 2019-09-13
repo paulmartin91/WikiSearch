@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/reactplayground/static/css/main.dac1d1b1.chunk.css",
-    "main.js": "/reactplayground/static/js/main.2c2b30d4.chunk.js",
-    "main.js.map": "/reactplayground/static/js/main.2c2b30d4.chunk.js.map",
-    "runtime~main.js": "/reactplayground/static/js/runtime~main.2058f49d.js",
-    "runtime~main.js.map": "/reactplayground/static/js/runtime~main.2058f49d.js.map",
-    "static/js/2.02c0b5b6.chunk.js": "/reactplayground/static/js/2.02c0b5b6.chunk.js",
-    "static/js/2.02c0b5b6.chunk.js.map": "/reactplayground/static/js/2.02c0b5b6.chunk.js.map",
-    "index.html": "/reactplayground/index.html",
-    "precache-manifest.b2896fe146c23f64a151a52ff66f89dd.js": "/reactplayground/precache-manifest.b2896fe146c23f64a151a52ff66f89dd.js",
-    "service-worker.js": "/reactplayground/service-worker.js",
-    "static/css/main.dac1d1b1.chunk.css.map": "/reactplayground/static/css/main.dac1d1b1.chunk.css.map"
+    "main.css": "/WikiSearch/static/css/main.dac1d1b1.chunk.css",
+    "main.js": "/WikiSearch/static/js/main.ea55f0b2.chunk.js",
+    "main.js.map": "/WikiSearch/static/js/main.ea55f0b2.chunk.js.map",
+    "runtime~main.js": "/WikiSearch/static/js/runtime~main.76979c3f.js",
+    "runtime~main.js.map": "/WikiSearch/static/js/runtime~main.76979c3f.js.map",
+    "static/js/2.b16fbd89.chunk.js": "/WikiSearch/static/js/2.b16fbd89.chunk.js",
+    "static/js/2.b16fbd89.chunk.js.map": "/WikiSearch/static/js/2.b16fbd89.chunk.js.map",
+    "index.html": "/WikiSearch/index.html",
+    "precache-manifest.dc098f9f6155e1e2c66f240c867a2abd.js": "/WikiSearch/precache-manifest.dc098f9f6155e1e2c66f240c867a2abd.js",
+    "service-worker.js": "/WikiSearch/service-worker.js",
+    "static/css/main.dac1d1b1.chunk.css.map": "/WikiSearch/static/css/main.dac1d1b1.chunk.css.map"
   }
 }
